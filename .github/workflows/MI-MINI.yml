@@ -46,7 +46,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: ac54u_base
+        TNAME: RT_AC54U
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
